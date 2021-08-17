@@ -109,7 +109,7 @@ footer .item img {
     display: inline-block;
     margin: 10px 0;
 }
-.about article h2, .contact h2{
+.about article h1, .contact h2{
     color: #333030;
     font-size: 30px;
 }
@@ -120,15 +120,17 @@ footer .item img {
   text-align: center;
   padding: 50px;
 }
-.projects h1{
+.projects h2{
 color: #333030;
     font-size: 35px;
 }
-.projects > span, .projects h1, .contact>span{
+.projects > span, .projects h2, .contact>span{
   text-align: center;
   display: block;
 }
-
+.project h3{
+  font-size: 30px;
+}
 .project{
   height: 300px;
   width: 450px;
@@ -140,10 +142,10 @@ color: #333030;
 .project-3{border-top: 4px solid #11648b;}
 .project-4{border-top: 4px solid #ffa500;}
 
-.project-1 h2{color:#7b1fa2;}
-.project-2 h2{color:#e79c2a;}
-.project-3 h2{color:#11648b;}
-.project-4 h2{color:#ffa500;}
+.project-1 h3{color:#7b1fa2;}
+.project-2 h3{color:#e79c2a;}
+.project-3 h3{color:#11648b;}
+.project-4 h3{color:#ffa500;}
 
 .projects article{
   position: relative;
