@@ -1,0 +1,117 @@
+/* ===========================
+-------Media Queries----------
+================================ */
+/* ------Mobile------- */
+
+@media only screen and (max-width: 768px) {
+    #home{
+        height: 100vw;
+    }
+   
+    .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+    .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .wrapper, .item{
+      width: 100%;
+  }
+  #skillset{
+      flex-flow: column wrap;
+  }
+  .flex-point, .skill-bar{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+}
+.flex-point{
+    flex-flow: column wrap;
+    align-items: center;
+}
+.project{
+    position: relative;
+    width: 100%;
+    overflow: visible;
+    height: auto;
+    box-sizing: border-box;
+}.projects img{
+    width: 100%;
+}
+.odd, .even{
+    top:0;
+    left: 0;
+}
+.contact{
+    padding: 20px;
+}
+.contact img{
+    width: auto;
+}
+article{
+    font-size: 22px;
+}
+.center{
+    position: relative;
+    width: 50%;
+    top: 18%;
+}
+.display{
+font-size: 40px;
+}
+.flex-point .item{
+    width: 70%;
+    font-size: 24px;
+}
+.flex-point .item img{
+    width: 100px;
+    height: auto;
+} 
+.about article{
+    margin: 50px 20px;
+}
+}
+
+
+
+/* -----Tablet------ */
+@media only screen and (min-width:769px) and (max-width: 1024px) {
+   .wrapper{
+       width: 100%;
+   }
+   .projects img{
+       width: 100%;
+   }
+   header, footer{
+       width: 100%;
+   }
+   .about{
+       box-sizing: border-box;
+   }
+   #home{
+       height: 100vw;
+   }
+   #skillset, .about{
+       text-align: center;
+        justify-content: center;
+        
+   }
+   .flex-point, .item{
+       width: 80%;
+   }
+   .contact img{
+       width: 50px;
+   }
+   
+
+}
