@@ -5,7 +5,7 @@
 
 @media only screen and (max-width: 768px) {
     #home{
-        height: 100vw;
+        height: 100vh;
     }
    
     .topnav a:not(:first-child) {display: none;}
@@ -58,27 +58,41 @@
 .contact img{
     width: auto;
 }
-article{
-    font-size: 22px;
-}
+
 .center{
-    position: relative;
-    width: 50%;
-    top: 18%;
+    position:unset;
+    box-sizing: border-box;
+}
+.myImage{
+    padding: 0;
+    width: 100%;
+    height: auto;
+}
+.skills img{
+    width: 12%;
 }
 .display{
-font-size: 40px;
+    position: unset;
+font-size: 25px;
+padding: 15%;
+vertical-align: middle;
 }
 .flex-point .item{
     width: 70%;
-    font-size: 24px;
+    
+}
+.myProgress span{
+    font-size: 14px;
 }
 .flex-point .item img{
-    width: 100px;
+    width: 30%;
     height: auto;
 } 
 .about article{
     margin: 50px 20px;
+}
+.contact p{
+    text-align: justify;
 }
 }
 
@@ -86,7 +100,8 @@ font-size: 40px;
 
 /* -----Tablet------ */
 @media only screen and (min-width:769px) and (max-width: 1024px) {
-   .wrapper{
+   
+    .wrapper{
        width: 100%;
    }
    .projects img{
@@ -99,7 +114,7 @@ font-size: 40px;
        box-sizing: border-box;
    }
    #home{
-       height: 100vw;
+       height: 100vh;
    }
    #skillset, .about{
        text-align: center;
