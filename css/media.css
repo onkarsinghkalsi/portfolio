@@ -74,7 +74,7 @@
 .display{
     position: unset;
 font-size: 25px;
-padding: 15%;
+padding: 40% 15% ;
 vertical-align: middle;
 }
 .flex-point .item{
