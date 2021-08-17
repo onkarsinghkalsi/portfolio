@@ -47,7 +47,7 @@ body{
 .display {
     position: relative;
     left: -50%;
-    top: -50%;
+    top: -40px;
     font-size: 30px;
     
     color: white;
